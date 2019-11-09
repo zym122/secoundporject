@@ -1,0 +1,146 @@
+.goodscar {
+  width: 100%;
+  background: #f6f6f6;
+}
+
+.goodscar #conten {
+  width: 100%;
+  background: white;
+}
+
+.goodscar #conten .s-con {
+  width: 100%;
+  height: 120px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.goodscar #conten .s-con input {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+
+.goodscar #conten .s-con .msg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.goodscar #conten .s-con .msg img {
+  margin-left: 50px;
+  width: 84px;
+  height: 84px;
+}
+
+.goodscar #conten .s-con .msg p {
+  width: 220px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+}
+
+.goodscar #conten .s-con .operation {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-size: 14px;
+}
+
+.goodscar #conten .s-con .price {
+  font-size: 16px;
+  color: red;
+  position: absolute;
+  top: 36px;
+  right: 176px;
+  font-weight: bold;
+}
+
+.goodscar #conten .s-con .unit-price {
+  position: absolute;
+  right: 120px;
+  font-size: 14px;
+  color: #c9c9c9;
+  top: 40px;
+}
+
+.goodscar .s-footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  background: white;
+}
+
+.goodscar .s-footer .jiesuan {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.goodscar .s-footer .jiesuan p {
+  position: absolute;
+  font-size: 16px;
+  top: -10px;
+  right: 100px;
+}
+
+.goodscar .s-footer .jiesuan p span {
+  color: red;
+}
+
+.goodscar .s-footer .jiesuan .btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 80px;
+  border: none;
+  outline: none;
+  background: #b0b0b0;
+  color: #fff;
+  font-size: 16px;
+  cursor: no-drop;
+}
+
+.goodscar .s-footer .jiesuan .bg1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 80px;
+  border: none;
+  outline: none;
+  background: #f40;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.goodscar .mul {
+  float: left;
+  margin-left: 8px;
+  margin-bottom: 20px;
+  width: 176px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.goodscar .mul .mli {
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.goodscar .mul .mli .mimg {
+  width: 100%;
+  height: 100%;
+}
+
+.goodscar .mul .mli:nth-child(3) {
+  color: red;
+}

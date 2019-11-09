@@ -1,0 +1,189 @@
+.detail {
+    width: 100%;
+    height: 600px;
+    background: #f8f8f8;
+    position: relative;
+
+    .dimg1 {
+        width: 100%;
+    }
+
+    .dul1 {
+        width: 100%;
+        height: 70px;
+        background: white;
+        position: absolute;
+        top: 320px;
+
+        .dli1 {
+            line-height: 15px;
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+
+            .dsp1 {
+                margin-left: 10px;
+            }
+
+            .dsp1:nth-child(1) {
+                font-size: 22px;
+            }
+
+            .dsp1:nth-child(2) {
+                font-size: 14px;
+                color: #c9c9c9;
+            }
+
+            .dsp1:nth-child(3) {
+                height: 10px;
+                border: 1px solid red;
+                line-height: 10px;
+                font-size: 10px;
+                color: red;
+            }
+
+            .dsp1:nth-child(4) {
+                height: 10px;
+                border: 1px solid red;
+                line-height: 10px;
+                font-size: 10px;
+                color: red;
+            }
+
+            .dsp1:nth-child(5) {
+                width: 34px;
+                height: 0;
+                border: 1px solid #c9c9c9;
+                position: absolute;
+                top: 50px;
+                left: 70px;
+            }
+        }
+    }
+
+    .dul2 {
+        width: 100%;
+        margin-top: 20px;
+
+        .dli2 {
+            width: 100%;
+        }
+
+        .dli2:nth-child(1) {
+            background: white;
+            height: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+            line-height: 30px;
+
+            .dli2sp1 {
+                font-size: 16px;
+                color: #c9c9c9;
+            }
+
+            .dli2sp2 {
+                height: 14px;
+                line-height: 14px;
+                color: white;
+                background: red;
+            }
+        }
+
+        .dli2:nth-child(2) {
+            margin-top: 10px;
+            background: white;
+
+            .dul3 {
+                width: 100%;
+
+                .dli3 {
+                    height: 44px;
+                    width: 100%;
+
+                    .dli3sp1 {
+                        font-size: 16px;
+                        color: #c9c9c9;
+                    }
+
+                    .dli3sp3 {
+                        border: 1px solid red;
+                        color: red;
+                        font-size: 10px;
+                        margin-left: 57px;
+                    }
+
+                    .dli3sp4 {
+                        margin-left: 10px;
+                        font-size: 14px;
+                    }
+                }
+
+                .dli3:nth-child(1) {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-size: 14px;
+                    padding: 10px;
+                    box-sizing: border-box;
+
+                    .dli3sp2 {
+                        width: 280px;
+
+                        .dli3sp3 {
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .dul4 {
+        width: 100%;
+        height: 40px;
+        background: white;
+        margin-top: 20px;
+        display: flex;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        .dli4 {
+            width: 50px;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            border: 1px solid #e7e7e7;
+            .dli4sp1{
+                font-size: 10px;
+            }
+        }
+        .dli5{
+            width: 116px;
+            height: 100%;
+            background: #ff8b8b;
+            color: white;
+            font-size: 16px;
+            text-align: center;
+            line-height: 40px;
+        }
+        .dli6{
+            width: 116px;
+            height: 100%;
+            background: #e60044;
+            color: white;
+            font-size: 16px;
+            text-align: center;
+            line-height: 40px;
+        }
+    }
+}

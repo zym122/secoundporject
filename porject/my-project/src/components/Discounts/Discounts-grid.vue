@@ -1,0 +1,51 @@
+<template>
+    <div class="grid">
+      <ul class="gul">
+        <li>
+          <span>
+            <img
+              src="https://z11.tuanimg.com/imagev2/wxyy/100x100.d0ffb17bd2b9d17d0ba85f0edbac7ccf.png"
+              alt
+            />
+          </span>
+          <span>9.9包邮</span>
+        </li>
+        <li>
+          <span>
+            <img
+              src="https://z11.tuanimg.com/imagev2/wxyy/100x100.665566c314fe39e0680c9515698718e2.png"
+              alt
+            />
+          </span>
+          <span>百元券</span>
+        </li>
+        <li>
+          <span>
+            <img
+              src="https://z11.tuanimg.com/imagev2/wxyy/100x100.29b470be1d383b79b5b86add6b4fb657.png"
+              alt
+            />
+          </span>
+          <span>品牌折扣</span>
+        </li>
+        <li>
+          <span>
+            <img
+              src="https://z11.tuanimg.com/imagev2/wxyy/100x100.9e35252631afc78cecc76a972f8d2d99.png"
+              alt
+            />
+          </span>
+          <span>薅羊毛</span>
+        </li>
+        <li>
+          <span>
+            <img
+              src="https://z11.tuanimg.com/imagev2/wxyy/100x100.8f13089152274a6a370b6a652f1e06ec.png"
+              alt
+            />
+          </span>
+          <span>天天特价</span>
+        </li>
+      </ul>
+    </div>
+</template>

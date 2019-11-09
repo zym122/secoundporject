@@ -1,0 +1,131 @@
+.mine {
+  width: 100%;
+  height: 100%;
+  background: #f6f6f6;
+}
+
+.mine .header {
+  width: 100%;
+  height: 126px;
+  background: #ff5f43;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mine .header .mip11 {
+  font-size: 18px;
+}
+
+.mine .header .miul1 {
+  display: flex;
+  width: 140px;
+  height: 38px;
+  border: 1px solid white;
+  border-radius: 30px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.mine .header .miul1 .misp1 {
+  height: 16px;
+  border-left: 2px solid white;
+}
+
+.mine .header .miul1 .mili1 {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  line-height: 34px;
+}
+
+.mine .header .hmp1 {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+}
+
+.mine .header .hmp1 li {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mine .nav {
+  background: white;
+  width: 100%;
+  height: 110px;
+}
+
+.mine .nav .mnul1 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #898888;
+}
+
+.mine .nav .mnul1 .mnli1:nth-child(2) {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mine .nav .grid {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+}
+
+.mine .nav .grid .gul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mine .nav .grid .gul li {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  color: #898888;
+}
+
+.mine .nav .grid .gul li img {
+  width: 30px;
+  height: 30px;
+}
+
+.mine .main1 {
+  background: #ffff;
+  width: 100%;
+  height: 90px;
+  margin-top: 10px;
+}
+
+.mine .main1 .mmul1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mine .main1 .mmul1 .mmli1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #898888;
+}
