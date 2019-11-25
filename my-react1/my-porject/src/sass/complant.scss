@@ -1,0 +1,45 @@
+#combox {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    // background: #000;
+    border: 1px solid skyblue;
+    .p1{
+        color: red;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+    }
+    .p2,.p3{
+        width: 88px;
+        height: 42px;
+        position: absolute;
+        text-align: center;
+        line-height: 42px;
+        font-weight: bold;
+    }
+    .p2{
+        top: 460px;
+        left: 220px;
+        background: skyblue;
+        color: #fff;
+
+
+    }
+    .p3{
+        top: 460px;
+        left: 680px;
+        background: gray;
+        color: #fff;
+
+
+    }
+    .content {
+        width: 671px;
+        height: 369px;
+        margin: 0px;
+        position: absolute;
+        top: 50px;
+        left: 180px;
+    }
+}

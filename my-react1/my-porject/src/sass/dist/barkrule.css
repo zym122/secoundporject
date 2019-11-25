@@ -1,0 +1,27 @@
+#brbox {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#brbox ul {
+  width: 100%;
+  display: flex;
+}
+
+#brbox ul li {
+  width: 14%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#brbox ul li span {
+  width: 100%;
+  border: 1px solid grey;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}

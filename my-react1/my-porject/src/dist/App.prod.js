@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _react=_interopRequireDefault(require("react")),_Alayout=_interopRequireDefault(require("./layout/Alayout/Alayout"));function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function App(){}require("./App.css");var _default=App;exports.default=_default;
